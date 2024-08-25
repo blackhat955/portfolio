@@ -63,6 +63,7 @@ export interface SanitizedSocial {
   telegram?: string;
   phone?: string;
   email?: string;
+  leetcode?:string;
 }
 
 export interface SanitizedResume {
@@ -75,6 +76,7 @@ export interface SanitizedExperience {
   from: string;
   to: string;
   companyLink?: string;
+  bulletPoints?: string[]; // Add bullet points as an array of strings
 }
 
 export interface SanitizedCertification {
@@ -89,7 +91,9 @@ export interface SanitizedEducation {
   degree?: string;
   from: string;
   to: string;
+  courses?: string[]; // Optional array of courses
 }
+
 
 export interface SanitizedPublication {
   title: string;

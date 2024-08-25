@@ -7,11 +7,13 @@ const ListItem = ({
   position,
   company,
   companyLink,
+  bulletPoints, // Add bulletPoints as a prop
 }: {
   time: React.ReactNode;
   position?: React.ReactNode;
   company?: React.ReactNode;
   companyLink?: string;
+  bulletPoints?: string[]; // bulletPoints is an optional array of strings
 }) => (
   <li className="mb-5 ml-4">
     <div
@@ -21,12 +23,26 @@ const ListItem = ({
     <div className="my-0.5 text-xs">{time}</div>
     <h3 className="font-semibold">{position}</h3>
     <div className="mb-4 font-normal">
-      <a href={companyLink} target="_blank" rel="noreferrer">
-        {company}
-      </a>
+      {companyLink ? (
+        <a href={companyLink} target="_blank" rel="noreferrer">
+          {company}
+        </a>
+      ) : (
+        company
+      )}
     </div>
+    {bulletPoints && bulletPoints.length > 0 && (
+      <ul className="list-disc ml-5">
+        {bulletPoints.map((point, index) => (
+          <li key={index} className="text-sm">
+            {point}
+          </li>
+        ))}
+      </ul>
+    )}
   </li>
 );
+
 
 const ExperienceCard = ({
   experiences,
@@ -81,6 +97,7 @@ const ExperienceCard = ({
                     time={`${experience.from} - ${experience.to}`}
                     position={experience.position}
                     company={experience.company}
+                    bulletPoints={experience.bulletPoints}
                     companyLink={
                       experience.companyLink
                         ? experience.companyLink

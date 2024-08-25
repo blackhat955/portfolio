@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/portfolio/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -30,37 +30,31 @@ const CONFIG = {
     },
 
     external: {
-      header: 'My Projects',
+      header: 'Aachivements',
       projects: [
         {
-          title: 'Searching Bot',
-          description: 'Help to find the most sophisticated search results and hence reduce user query time. This bot provokes Discord users to engage maximum in chatting and provides different perks based on their chatting time to buy premium memberships and other goodies.',
-          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbg5R79jMmbs7jXgnzTWeuXFux5V_6yknFHQ&s',
-          link: 'https://github.com/blackhat955/Leveling-Up-Bot',
+          title: 'Award for Best Final Year Project (Batch 2022)',
+          description: 'Received recognition for developing an innovative solution using the A* algorithm to optimize waste collection. The project aimed to predict bin overflow, save fuel, and ensure efficient routes, contributing to a cleaner and more sustainable society.',
+          imageUrl: 'https://e7.pngegg.com/pngimages/918/523/png-clipart-university-of-mumbai-alkesh-dinesh-mody-institute-for-financial-management-studies-college-school-emblem-logo-thumbnail.png',
+          link: 'https://drive.google.com/file/d/1hh9kIpkihyatecXhPySxU0y7nNC2y7v0/view',
         },
         {
-          title: 'Weather Report',
-          description: 'Our app provides real-time weather reports for any location by entering the zip code. You can easily access information about the current temperature, weather conditions, wind speed, and humidity at your desired location.',
-          imageUrl: 'https://img.freepik.com/premium-vector/weather-report-concept-background-flat-icons_51635-2286.jpg',
-          link: 'https://github.com/blackhat955/wather_app',
+          title: 'Inter College Project Competition',
+          description: 'Achieved first place in this competition with a project focused on enhancing community impact through innovative technology. The project was recognized for its potential to make a significant difference in society.',
+          imageUrl: 'https://e7.pngegg.com/pngimages/918/523/png-clipart-university-of-mumbai-alkesh-dinesh-mody-institute-for-financial-management-studies-college-school-emblem-logo-thumbnail.png',
+          link: 'https://drive.google.com/file/d/1T1AWEc_aR__4-VwP5m0W0iUQVgSQNLlU/view',
         },
         {
-          title: 'SWM-SYSTEM',
-          description: 'A garbage management project designed to streamline waste collection through AI and cloud technology. The system predicts bin overflow and calculates the most efficient waste collection routes, saving time, fuel, and resources. Includes a React PWA and Node.js backend for user access and management.',
-          imageUrl: 'https://media.licdn.com/dms/image/D5612AQEwsUIcCvj2aw/article-cover_image-shrink_600_2000/0/1720426067104?e=2147483647&v=beta&t=yPnEFlVsoEhgikGte1S_N-UpeBsysr4yE4gMF2kMWjU',
-          link: 'https://github.com/blackhat955/SWM-FrontEnd',
+          title: 'ICPC Asia Pacific Regionalist',
+          description: 'Competed in the prestigious ICPC regional contest, placing in the top 100 teams. The experience honed my problem-solving skills, teamwork, and ability to work under pressure in a competitive environment.',
+          imageUrl: 'https://news.cs.washington.edu/wp-content/uploads/2017/12/icpc.png',
+          link: 'https://w7.pngwing.com/pngs/827/1021/png-transparent-2017-acm-international-collegiate-programming-contest-competitive-programming-kateb-university-association-for-computing-machinery-acm-icpc-dhaka-site-others-text-medal-logo.png',
         },
         {
-          title: 'API for User Authentication',
-          description: 'Provides user authentication and authorization capabilities for websites. This API helps developers secure their sites easily and can be customized to meet specific needs. Available for installation via NPM.',
-          imageUrl: 'https://cdn-images-1.medium.com/v2/resize:fit:841/1*yCpUC4xPxtYV-LKbUv_TmQ.jpeg',
-          link: 'https://github.com/blackhat955/Multiuserauthenticator',
-        },
-        {
-          title: 'E-commerce Website',
-          description: 'Developed as part of an internship assignment, this website aims to assist micro businesses in e-retail and commerce. Built using HTML, CSS, and vanilla JavaScript, it features user-friendly design and SEO optimization.',
-          imageUrl: 'https://cdn.prod.website-files.com/63fc977c14aaea404dce4439/66bdc2fa7b9ffc2aadb9e372_6488965e56c8df016b016cc7_virtual-item-selection.webp',
-          link: 'https://github.com/blackhat955/E-commerce-Clothes',
+          title: 'Vice President of CodeChef Chapter',
+          description: 'Served as the Vice President, leading initiatives to promote coding culture and organize programming events. Contributed to building a strong community of coders and fostering competitive programming skills among peers.',
+          imageUrl: 'https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6cfb3eb6.jpg',
+          link: 'https://www.codechef.com/certificates/preview/1a5816e',
         },
       ],
     },    
@@ -87,7 +81,7 @@ const CONFIG = {
     stackoverflow: '17112180/durgesh', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    leetcode:'https://leetcode.com/u/WhoDareToWin/',
+    leetcode:'WhoDareToWin',
     website: 'https://www.innovationwale.com/',
     phone: '',
     email: 'workwithdurgesh99@gmail.com',
@@ -130,14 +124,32 @@ const CONFIG = {
     'Jupyter Notebook',
     'Jira',
 ],
-
 experiences: [
+  {
+    company: 'Indiana University Luddy School of Informatics, Computing, and Engineering',
+    position: 'Graduate Teaching Assistant',
+    from: 'August 2024',
+    to: 'Present',
+    companyLink: 'https://luddy.indiana.edu/',
+    bulletPoints: [
+      'Provided course support for Android app development basics and advanced topics.',
+      'Evaluated app designs and offered constructive feedback.',
+      'Assisted with coding issues and guided students on best practices.',
+      'Reviewed UI/UX design and assessed sensor integration for student projects.',
+    ],
+  },
   {
     company: 'Programmers Army',
     position: 'Software Engineer',
     from: 'October 2022',
     to: 'June 2023',
     companyLink: 'https://www.programmersarmy.com',
+    bulletPoints: [
+      'Engaged in end-to-end software lifecycle tasks, reviewed system and project design, and collaborated with different teams.',
+      'Engineered SQL queries to extract module-specific data from 250,000+ production data records within Amazon Athena and processed it to align with module requirements.',
+      'Created a CLI tool that safely allows making otherwise risky configuration changes and documented its usage.',
+      'Contributed to the development of company-wide shared utilities libraries, improving code reusability and efficiency.',
+    ],
   },
   {
     company: 'ByteLearn',
@@ -145,9 +157,16 @@ experiences: [
     from: 'June 2022',
     to: 'September 2022',
     companyLink: 'https://www.bytelearn.com',
+    bulletPoints: [
+      'Architected and developed custom, highly interactive React components, including graphs, charts, shapes, floating math keyboards, and drag-and-drop inputs from scratch.',
+      'Designed REST APIs, Automation, Scraping, and Data Processing scripts utilizing Node.js, Python, and Selenium, delivering an exceptional performance boost with a remarkable 1000x improvement over existing systems.',
+      'Integrated Apache Kafka, SQS, S3, and CloudWatch for seamless functionalities.',
+      'Optimized the order lifecycle and streamlined seller catalog handling, enhancing system capabilities through continuous learning and successful tech integrations.',
+      'Scaled chatbot to serve 200 RPS with latency < 300ms with asynchronous state and configurations, including inherent latency of multiple backend APIs.',
+      'Built end-to-end automation testing pipelines for modules to automate issue identification to assigning funnel, improving QA and Product-Team Efficiency by 30% (measured by time spent per issue).',
+    ],
   },
 ],
-
 certifications: [
   {
     name: 'ACM ICPC Regionalist',
@@ -213,21 +232,38 @@ certifications: [
   },
 ],
 
-  educations: [
-    {
-      institution: 'Indiana University Bloomington',
-      degree: "Master's in Data Science",
-      from: '2023',
-      to: 'Expected May 2025',
-    },
-    {
-      institution: 'University of Mumbai',
-      degree: "Bachelor's in Computer Engineering",
-      from: '2018',
-      to: '2022',
-    },
-  ],
-  
+ educations:[
+  {
+    institution: 'Indiana University Bloomington',
+    degree: "Master's in Data Science",
+    from: '2023',
+    to: 'Expected May 2025',
+    courses: [
+      'Advanced Database Concepts (CSCI-B 561)',
+      'Applied Algorithms (CSCI-B 505)',
+      'Applied Database Technology (DSCI-D 532)',
+      'Big Data (INFO-I 535)',
+      'Computer Vision (ENGR-E 535)',
+      'Data Mining (CSCI-B 565)',
+      'Statistics (STAT-S 520)',
+      'Time Series Analysis (DSCI-D 590)',
+    ],
+  },
+  {
+    institution: 'University of Mumbai',
+    degree: "Bachelor's in Computer Engineering",
+    from: '2018',
+    to: '2022',
+    courses: [
+      'Database Management (PCC-ITC 302)',
+      'Computer Architecture (PCC-ITC 403)',
+      'Cryptography and Network Security (PCC-ITC 502)',
+      'Automata Theory (PCC-ITC 503)',
+      'Operating System (PCC-ITC 501)',
+      'Computer Networks (PCC-ITC 404)',
+    ],
+  },
+],
   // publications: [
   //   {
   //     title: 'Publication Title',
@@ -236,7 +272,7 @@ certifications: [
   //     authors: 'John Doe, Jane Smith',
   //     link: 'https://example.com',
   //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //       ' ',
   //   },
   //   {
   //     title: 'Publication Title',
@@ -245,17 +281,17 @@ certifications: [
   //     authors: 'John Doe, Jane Smith',
   //     link: 'https://example.com',
   //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //       '',
   //   },
   // ],
   // Display articles from your medium or dev account. (Optional)
 
 // this can be use to display blog later on
-  // blog: {
-  //   source: 'dev', // medium | dev
-  //   username: 'arifszn', // to hide blog section, keep it empty
-  //   limit: 2, // How many articles to display. Max is 10.
-  // },
+  blog: {
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
+    limit: 2, // How many articles to display. Max is 10.
+  },
 
 
 
@@ -264,7 +300,7 @@ certifications: [
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '5106347',
     snippetVersion: 6,
   },
   themeConfig: {
@@ -283,39 +319,16 @@ certifications: [
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
       'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
       'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
       'black',
       'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
       'night',
       'coffee',
       'winter',
-      'dim',
       'nord',
       'sunset',
-      'procyon',
     ],
 
     // Custom theme, applied to `procyon` theme

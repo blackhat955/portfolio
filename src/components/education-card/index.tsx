@@ -6,10 +6,12 @@ const ListItem = ({
   time,
   degree,
   institution,
+  courses,
 }: {
   time: React.ReactNode;
   degree?: React.ReactNode;
   institution?: React.ReactNode;
+  courses?: string[];
 }) => (
   <li className="mb-5 ml-4">
     <div
@@ -19,6 +21,13 @@ const ListItem = ({
     <div className="my-0.5 text-xs">{time}</div>
     <h3 className="font-semibold">{degree}</h3>
     <div className="mb-4 font-normal">{institution}</div>
+    {courses && courses.length > 0 && (
+      <ul className="list-disc ml-5">
+        {courses.map((course, index) => (
+          <li key={index}>{course}</li>
+        ))}
+      </ul>
+    )}
   </li>
 );
 
@@ -70,14 +79,16 @@ const EducationCard = ({
               renderSkeleton()
             ) : (
               <>
-                {educations.map((item, index) => (
-                  <ListItem
-                    key={index}
-                    time={`${item.from} - ${item.to}`}
-                    degree={item.degree}
-                    institution={item.institution}
-                  />
-                ))}
+               {educations.map((item, index) => (
+                <ListItem
+                  key={index}
+                  time={`${item.from} - ${item.to}`}
+                  degree={item.degree}
+                  institution={item.institution}
+                  courses={item.courses} // Passing the courses array
+                />
+              ))}
+
               </>
             )}
           </ol>
