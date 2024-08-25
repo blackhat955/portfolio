@@ -30,7 +30,7 @@ const CONFIG = {
     },
 
     external: {
-      header: 'Aachivements',
+      header: 'Achievements',
       projects: [
         {
           title: 'Award for Best Final Year Project (Batch 2022)',
