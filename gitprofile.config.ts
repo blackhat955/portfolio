@@ -88,7 +88,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '/Users/ironfeast/Library/Mobile Documents/com~apple~CloudDocs/SWE_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1-HckeQYnDRXXyDNwqUHZE_FT_4EGqvfD/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
@@ -139,33 +139,32 @@ experiences: [
     ],
   },
   {
-    company: 'Programmers Army',
-    position: 'Software Engineer',
-    from: 'October 2022',
-    to: 'June 2023',
-    companyLink: 'https://www.programmersarmy.com',
-    bulletPoints: [
-      'Engaged in end-to-end software lifecycle tasks, reviewed system and project design, and collaborated with different teams.',
-      'Engineered SQL queries to extract module-specific data from 250,000+ production data records within Amazon Athena and processed it to align with module requirements.',
-      'Created a CLI tool that safely allows making otherwise risky configuration changes and documented its usage.',
-      'Contributed to the development of company-wide shared utilities libraries, improving code reusability and efficiency.',
-    ],
-  },
-  {
-    company: 'ByteLearn',
-    position: 'Software Engineer Intern',
-    from: 'June 2022',
-    to: 'September 2022',
-    companyLink: 'https://www.bytelearn.com',
-    bulletPoints: [
-      'Architected and developed custom, highly interactive React components, including graphs, charts, shapes, floating math keyboards, and drag-and-drop inputs from scratch.',
-      'Designed REST APIs, Automation, Scraping, and Data Processing scripts utilizing Node.js, Python, and Selenium, delivering an exceptional performance boost with a remarkable 1000x improvement over existing systems.',
-      'Integrated Apache Kafka, SQS, S3, and CloudWatch for seamless functionalities.',
-      'Optimized the order lifecycle and streamlined seller catalog handling, enhancing system capabilities through continuous learning and successful tech integrations.',
-      'Scaled chatbot to serve 200 RPS with latency < 300ms with asynchronous state and configurations, including inherent latency of multiple backend APIs.',
-      'Built end-to-end automation testing pipelines for modules to automate issue identification to assigning funnel, improving QA and Product-Team Efficiency by 30% (measured by time spent per issue).',
-    ],
-  },
+  company: 'Programmers Army',
+  position: 'Software Engineer',
+  from: 'October 2022',
+  to: 'June 2023',
+  companyLink: 'https://www.programmersarmy.com',
+  bulletPoints: [
+    'Improved API response time by 25% by implementing a microservices architecture using Node.js and Express.',
+    'Created a CLI tool that safely allows making otherwise risky configuration changes and documented its usage.',
+    'Optimized SQL queries for efficient extraction of 250K+ production data in Amazon Athena to meet module needs.',
+    'Maximized user engagement by reducing initial loading time by 15% through code-splitting in React.',
+    'Boosted deliverable time by 10% through efficient management of software lifecycle and by reviewing system design.',
+  ],
+},
+{
+  company: 'ByteLearn',
+  position: 'Software Engineer Intern',
+  from: 'June 2022',
+  to: 'September 2022',
+  companyLink: 'https://www.bytelearn.com',
+  bulletPoints: [
+    'Enhanced chatbot to handle 200 RPS with a latency of >300ms using async state, managing multiple backend APIs.',
+    'Integrated Apache Kafka, SQS, S3, and CloudWatch for seamless functionalities.',
+    'Identified and fixed edge cases, such as resolving a multi-factor authentication setup issue affecting an estimated 5% of users.',
+    'Designed REST APIs, automation, scraping, and data processing scripts with Node.js, Python, and Selenium, achieving a 1000x performance boost over existing systems.',
+  ],
+},
 ],
 certifications: [
   {
