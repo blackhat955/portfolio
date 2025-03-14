@@ -93,6 +93,11 @@ const CONFIG = {
   skills: [
     'C++',
     'JavaScript',
+    'Kotlin',
+    'Jetpack Compose',
+    'RoomDB',
+    'XML Layout',
+    'UIkit',
     'Python',
     'TypeScript',
     'Swift',
